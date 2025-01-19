@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #de1111;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eedf08;
+    color: rgb(49, 20, 20);
+}
+
+#hero .btn {
+    background-color: #1e08ae;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content-section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6bd4db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Add hover effect for navigation links */
+header nav ul li a:hover {
+    color: #2a9d8f;
+}
+
+/* Change button color on hover */
+#hero .btn:hover {
+    background-color: #e52090;
+    color: #0a0a0a;
+}
+
+/* Add background color change when hovering over services */
+.services .service {
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.services .service:hover {
+    background-color: #6ac1e9;
+}
+
+/* Contact form inputs focus effect */
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #2a9d8f;
+    outline: none;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s ease;
+}
